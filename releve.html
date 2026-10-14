@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Relevé des prix</title>
+</head>
+  <link rel="stylesheet" href="style.css">
+<body>
+  <h1>Relevé des prix</h1>
+
+  <form>
+    <label for="ville">Ville :</label>
+    <input type="text" id="ville" name="ville" required>
+    <br><br>
+
+    <label for="produit">Produit :</label>
+    <input type="text" id="produit" name="produit" required>
+    <br><br>
+
+    <label for="prix">Prix (FCFA) :</label>
+    <input type="number" id="prix" name="prix" min="0" required>
+    <br><br>
+
+    <label for="date">Date du relevé :</label>
+    <input type="date" id="date" name="date" required>
+    <br><br>
+
+    <button type="submit">Envoyer</button>
+  </form>
+</body>
+</html>
